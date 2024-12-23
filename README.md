@@ -29,9 +29,11 @@ This step configures three automated operation modes that can be toggled via but
 1. **Circle Mode**: The vehicle travels in a one-meter diameter circle and stops.
 2. **Straight Line Mode**: The vehicle moves one meter forward, performs a U-turn, and returns to the starting point.
 3. **Square Mode**: The vehicle navigates a 1x1 meter square, accelerating and decelerating along each segment, reaching maximum speed at the midpoint of each line. It stops after completing the square.
+### Tank in Action: Video 1
 <a href="https://drive.google.com/file/d/1aLY71eFqSGDF4pN38_QJKEeVXK41lRw1/view?usp=sharing">
-  <img src="https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg?raw=true" alt="Tank Robot Video Preview" width="500">
+  <img src="https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.32.jpeg?raw=true" alt="Tank Robot in Action" width="500">
 </a>
+*Click the image above to watch the robot in action on Google Drive.*
 
 ---
 
@@ -43,6 +45,11 @@ This step involves implementing manual control for the vehicle using a Wii remot
 2. **Speed Adjustment**: The Z button cycles through three speed modes (PWM duty cycles of 0.33, 0.66, and 1) when the joystick is fully pushed.
 3. **Manual Mode Toggle**: The C button activates/deactivates manual mode. Manual mode only works when the dipswitch is configured correctly.
 
+### Controller Demonstration: Video 2
+<a href="https://drive.google.com/file/d/1689lBxDMI8c7FaeYoWoYacifNVS20Pdw/view?usp=sharing">
+  <img src="https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.52.jpeg?raw=true" alt="Controller Demonstration" width="500">
+</a>
+*Click the image above to see the controller in action.*
 ---
 
 ## Step 4: Real-Time Display on LCD
@@ -52,6 +59,10 @@ The final step displays real-time data on an LCD screen, using principles from L
 1. **Current Time and Date**: Using a Real-Time Clock (RTC) module.
 2. **Vehicle Mode**: Shows whether the vehicle is in automatic mode (A1, A2, A3) or manual mode (M1, M2, M3).
 3. **Real-Time Motor Speeds**: Using Hall effect sensors (encoders) to measure and display motor speeds. Refer to [this guide](https://robu.in/interfacing-hall-effect-sensor-with-arduino-connection-code/) for details on interfacing Hall sensors. Power the sensors with the 5V supply from the Nucleo board.
+
+### LCD Display
+Here is an image showing the real-time LCD display integrated into the project:
+<img src="https://github.com/Abib-web/robot-tank-stm32/blob/e9b810af3decf5fb9c2c6d831fc56f86c27b0d27/images/WhatsApp%20Image%202024-12-12%20at%2010.45.52.jpeg?raw=true" alt="LCD Display" width="500">
 
 ---
 
