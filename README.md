@@ -3,6 +3,7 @@
 This project is an end-of-session assignment designed to implement multiple functionalities for a tracked vehicle using a Nucleo microcontroller board. Below is a detailed breakdown of the project:
 
 ![Tank Robot Front View](https://github.com/Abib-web/robot-tank-stm32/blob/8e15cf37f9ce4331fb2634a5fab892c3b1cb900b/images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg?raw=true)
+<img src="https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg?raw=true" alt="Tank Robot Front View" width="600">
 
 
 ---
