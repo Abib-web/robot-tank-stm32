@@ -2,7 +2,7 @@
 
 This project is an end-of-session assignment designed to implement multiple functionalities for a tracked vehicle using a Nucleo microcontroller board. Below is a detailed breakdown of the project:
 
-![Tank Robot Front View](images/WhatsApp_Image_2024-12-12_at_10.45.16.jpeg)
+![Tank Robot Front View](images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg
 
 
 ---
