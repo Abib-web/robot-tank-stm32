@@ -29,7 +29,10 @@ This step configures three automated operation modes that can be toggled via but
 1. **Circle Mode**: The vehicle travels in a one-meter diameter circle and stops.
 2. **Straight Line Mode**: The vehicle moves one meter forward, performs a U-turn, and returns to the starting point.
 3. **Square Mode**: The vehicle navigates a 1x1 meter square, accelerating and decelerating along each segment, reaching maximum speed at the midpoint of each line. It stops after completing the square.
-[![Video Preview](https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.32.jpeg?raw=true)](https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Video%202024-12-12%20at%2010.42.21.mp4?raw=true)
+<a href="https://drive.google.com/file/d/1aLY71eFqSGDF4pN38_QJKEeVXK41lRw1/view?usp=sharing">
+  <img src="https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg?raw=true" alt="Tank Robot Video Preview" width="500">
+</a>
+
 ---
 
 ## Step 3: Manual Control via Wii Controller
