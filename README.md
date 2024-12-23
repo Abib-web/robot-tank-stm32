@@ -2,7 +2,6 @@
 
 This project is an end-of-session assignment designed to implement multiple functionalities for a tracked vehicle using a Nucleo microcontroller board. Below is a detailed breakdown of the project:
 
-![Tank Robot Front View](https://github.com/Abib-web/robot-tank-stm32/blob/8e15cf37f9ce4331fb2634a5fab892c3b1cb900b/images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg?raw=true)
 <img src="https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.16.jpeg?raw=true" alt="Tank Robot Front View" width="600">
 
 
@@ -30,7 +29,7 @@ This step configures three automated operation modes that can be toggled via but
 1. **Circle Mode**: The vehicle travels in a one-meter diameter circle and stops.
 2. **Straight Line Mode**: The vehicle moves one meter forward, performs a U-turn, and returns to the starting point.
 3. **Square Mode**: The vehicle navigates a 1x1 meter square, accelerating and decelerating along each segment, reaching maximum speed at the midpoint of each line. It stops after completing the square.
-
+[![Video Preview](https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Image%202024-12-12%20at%2010.45.32.jpeg?raw=true)](https://github.com/Abib-web/robot-tank-stm32/blob/main/images/WhatsApp%20Video%202024-12-12%20at%2010.42.21.mp4?raw=true)
 ---
 
 ## Step 3: Manual Control via Wii Controller
